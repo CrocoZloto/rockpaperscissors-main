@@ -1,0 +1,40 @@
+* {
+  margin: none;
+  box-sizing: border-box;
+  outline: 1px solid red;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+body {
+  background-color: white;
+
+}
+
+h2.rules,
+h1.title,
+h2.text {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.choiceBtn{
+  width: 150px;
+  height: 150px;
+  border-radius: 2vw;
+  font-size: 3rem;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+  margin-bottom: 5vh;
+}
+button:hover{
+  opacity: 50%;
+}
+button:active{
+  font-size: 5rem;
+}
+h2.gameText {
+}
