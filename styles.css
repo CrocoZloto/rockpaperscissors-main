@@ -5,14 +5,7 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-body {
-  background-color: white;
-
-}
-
-h2.rules,
-h1.title,
-h2.text {
+h1,h2 {
   text-align: center;
   color: rgb(0, 0, 0);
 }
@@ -35,6 +28,15 @@ button:hover{
 }
 button:active{
   font-size: 5rem;
+  
 }
-h2.gameText {
+p.author{
+  display: flex;
+  justify-content: center;
 }
+.score{
+  display: flex;
+  justify-content:space-evenly;
+  font-size: 3rem;
+}
+
