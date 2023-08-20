@@ -1,11 +1,11 @@
 * {
   margin: none;
   box-sizing: border-box;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-h1,h2 {
+h1,h3 {
   text-align: center;
   color: rgb(0, 0, 0);
 }
@@ -15,6 +15,26 @@ h1,h2 {
   height: 150px;
   border-radius: 2vw;
   font-size: 3rem;
+}
+p.player, p.cpu{
+  font-size: 7rem;
+}
+button.start{
+  background-color: rgb(2, 234, 2);
+  color: black;
+  border: 0;
+  border-radius: 2vw;
+  /* Add right position styling to center the button in the image area  */
+}
+p.playerIcons{
+  margin: 0; 
+}
+.players{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2.5rem;
+  gap: 28vw; 
+  margin-bottom: 3vw; 
 }
 
 .buttons{
@@ -38,5 +58,6 @@ p.author{
   display: flex;
   justify-content:space-evenly;
   font-size: 3rem;
+  align-items: center;
 }
 
