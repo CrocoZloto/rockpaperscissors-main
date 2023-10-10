@@ -1,7 +1,7 @@
 * {
   margin: none;
   box-sizing: border-box;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
@@ -19,12 +19,15 @@ h1,h3 {
 p.player, p.cpu{
   font-size: 7rem;
 }
+.buttonStart{
+  display: flex;
+}
 button.start{
-  background-color: rgb(2, 234, 2);
+  background-color: rgb(218, 219, 218);
   color: black;
   border: 0;
   border-radius: 2vw;
-  /* Add right position styling to center the button in the image area  */
+  justify-content: center;
 }
 p.playerIcons{
   margin: 0; 
@@ -47,12 +50,7 @@ button:hover{
   opacity: 50%;
 }
 button:active{
-  font-size: 5rem;
-  
-}
-p.author{
-  display: flex;
-  justify-content: center;
+  font-size: 5rem; 
 }
 .score{
   display: flex;
@@ -60,4 +58,3 @@ p.author{
   font-size: 3rem;
   align-items: center;
 }
-
